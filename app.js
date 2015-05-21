@@ -60,5 +60,5 @@ app.use(function(err, req, res, next) {
 
 module.exports = app;
 
-app.set('port', 80);
+app.set('port', 8080);
 app.listen(app.get('port'));
