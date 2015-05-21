@@ -1,0 +1,16 @@
+{
+    "name": "apiFrontend",
+    "version": "1.0.0",
+    "dependencies": {
+        "bootstrap": "latest",
+        "angular": "latest",
+        "jquery": "latest",
+        "qunit": "latest"
+    },
+    "install": {
+        "path": {
+            "css": "stylesheets",
+            "js": "javascripts"
+        }
+    }
+}

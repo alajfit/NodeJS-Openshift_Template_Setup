@@ -1,9 +1,12 @@
 {
   "name": "apiFrontEnd",
   "version": "1.0.0",
+  "author": "Alan J. Fitzpatrick",
+  "license": "GPL",
   "private": true,
   "scripts": {
-    "start": "supervisor app.js"
+    "start": "COMMENT --- change from node to supervisor when pushing to openshift --- This is also how comments are added to JSON files",
+    "start": "node app.js"
   },
   "main": "app.js",
   "dependencies": {

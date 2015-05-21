@@ -1,7 +1,24 @@
 doctype html
 html
-  head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    block content
+	head
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		meta(name='description', content='Template - NodeJS Openshift Setup')
+		meta(name='author', content='Alan J. Fitzpatrick')
+
+		title= title
+
+		link(rel='icon', href='/images/favicon/api.ico')
+		link(rel='stylesheet', href='/stylesheets/bootstrap/bootstrap.css')
+		link(rel='stylesheet', href='/stylesheets/qunit/qunit.css')
+		link(rel='stylesheet', href='/stylesheets/style.css')
+	body
+		.navbar.navbar-inverse.navbar-fixed-top
+			.container-fluid
+				.navbar-header
+
+		block content
+
+		footer
+		script(src='/javascripts/angular/angular.js')
