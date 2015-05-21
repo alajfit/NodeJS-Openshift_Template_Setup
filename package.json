@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "supervisor server.js"
+    "start": "supervisor app.js"
   },
   "main": "app.js",
   "dependencies": {
