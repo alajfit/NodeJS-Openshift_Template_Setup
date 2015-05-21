@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "start": "COMMENT --- change from node to supervisor when pushing to openshift --- This is also how comments are added to JSON files",
-    "start": "node app.js"
+    "start": "supervisor app.js"
   },
   "main": "app.js",
   "dependencies": {
