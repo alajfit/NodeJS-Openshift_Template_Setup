@@ -10,10 +10,17 @@ module.exports = function(grunt) {
 					'public/stylesheets/style.css': 'public/stylesheets/sass/style.scss'
 				}
 			}
+		},
+		watch: {
+			sass: {
+				files: 'public/stylesheets/sass/*.scss',
+				tasks: 'sass'
+			}
 		}
 	});
 
 	grunt.loadNpmTasks('grunt-contrib-sass');
+	grunt.loadNpmTasks('grunt-contrib-watch');
 
 	grunt.registerTask('default',['sass'])
 }
