@@ -13,17 +13,17 @@
 ### Requirements
 
 > Openshift
-	* NodeJS Server Only
+	- NodeJS Server Only
 
 > PC
-	* Git
-	* NodeJS
-	* Express
-	* Express-Generator
-	* Bower
-	* Bower-Installer
-	* GruntJS
-	* Ruby(Gem Installer) > SASS
+	- Git
+	- NodeJS
+	- Express
+	- Express-Generator
+	- Bower
+	- Bower-Installer
+	- GruntJS
+	- Ruby(Gem Installer) > SASS
 
 ### How to get setup
 	- Create a NodeJS Gear either in the Interface or on the Command Line
