@@ -5,6 +5,7 @@
   "license": "GPL",
   "private": true,
   "scripts": {
+    "start": "On Openshift change node to supervisor",
     "start": "node app.js"
   },
   "main": "app.js",
