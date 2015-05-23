@@ -3,13 +3,16 @@ html
 	head
 		meta(charset='utf-8')
 		meta(http-equiv='X-UA-Compatible', content='IE=edge')
-		meta(name='viewport', content='width=device-width, initial-scale=1')
+		meta(name='viewport', content='width=device-width, initial-scale=1.0, user-scalable=no')
 		meta(name='description', content='Template - NodeJS Openshift Setup')
 		meta(name='author', content='Alan J. Fitzpatrick')
 
-		title= title_name
+		title #{title_page} | #{title_name}
 
 		link(rel='icon', href='/images/favicon/api.ico')
+		link(rel='canonical', href='#')
+
+		link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Varela+Round')
 		link(rel='stylesheet', href='/stylesheets/bootstrap/bootstrap.css')
 		link(rel='stylesheet', href='/stylesheets/qunit/qunit.css')
 		link(rel='stylesheet', href='/stylesheets/style.css')
@@ -21,7 +24,8 @@ html
 					span.icon-bar
 					span.icon-bar
 					span.icon-bar
-					a.navbar-brand(href='#') Project name
+					a.navbar-brand(href='#') #{title_page} | #{title_name}
+					img.logo-image(src= title_logo_Image)
 				.navbar-collapse.collapse(id='#navbar')
 					ul.nav.navbar-nav.navbar-right
 						li
@@ -36,8 +40,10 @@ html
 		block content
 
 		footer
+			p &copy; #{new Date().getFullYear()} - Created By <a href='#{author_link}' target='_blank'>#{author}</a>, All Rights Reserved.
 
+		
+		script(src='/javascripts/jquery/jquery.js')
 		script(src='/javascripts/angular/angular.js')
 		script(src='/javascripts/bootstrap/bootstrap.js')
-		script(src='/javascripts/jquery/jquery.js')
 		script(src='/javascripts/qunit/qunit.js')
