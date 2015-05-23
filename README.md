@@ -12,10 +12,10 @@
 
 ### Requirements
 
-> Openshift
+> ###Openshift
 	- NodeJS Server Only
 
-> PC
+> ###PC
 	- Git
 	- NodeJS
 	- Express
